@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)  # Add CORS support to your Flask app
 
 # Load the data and preprocess it
-df = pd.read_csv(r'C:/Users/eshan/Downloads/KSP website/KSP website/backend/df.csv')
+df = pd.read_csv(r'df.csv')
 df['Offence_From_Date'] = pd.to_datetime(df['Offence_From_Date'])
 df['Year'] = df['Offence_From_Date'].dt.year
 df['Month'] = df['Offence_From_Date'].dt.month

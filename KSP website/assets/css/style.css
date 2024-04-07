@@ -32,6 +32,10 @@
   scroll-behavior: smooth;
 }
 
+.rounded{
+  border-radius: 20px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
